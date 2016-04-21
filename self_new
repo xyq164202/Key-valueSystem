@@ -1,0 +1,250 @@
+ubuntu@ip-172-31-2-3:~$ java DHashTablePutClientTest 1 10000
+0 Begin: 1448771833416
+0 End: 1448771839085
+
+ubuntu@ip-172-31-2-3:~$ java DHashTableGetClientTest 1 10000
+0 Begin: 1448771882193
+0 End: 1448771886606
+
+ubuntu@ip-172-31-2-3:~$ java DHashTableDelClientTest 1 10000
+0 Begin: 1448771956969
+0 End: 1448771961830
+
+
+
+
+ubuntu@ip-172-31-0-40:~$ java DHashTablePutClientTest 1 1000
+0 Begin: 1448779822135
+0 End: 1448779822818
+
+ubuntu@ip-172-31-0-40:~$ java DHashTablePutClientTest 2 1000
+0 Begin: 1448779196215
+1 Begin: 1448779196220
+0 End: 1448779197369
+1 End: 1448779197372
+
+ubuntu@ip-172-31-0-40:~$ java DHashTablePutClientTest 4 1000
+0 Begin: 1448779286881
+1 Begin: 1448779286888
+2 Begin: 1448779286888
+3 Begin: 1448779286889
+3 End: 1448779288198
+1 End: 1448779288213
+0 End: 1448779288243
+2 End: 1448779288262
+
+ubuntu@ip-172-31-0-40:~$ java DHashTablePutClientTest 8 1000
+0 Begin: 1448779398577
+1 Begin: 1448779398584
+2 Begin: 1448779398584
+3 Begin: 1448779398597
+4 Begin: 1448779398598
+5 Begin: 1448779398599
+6 Begin: 1448779398599
+7 Begin: 1448779398600
+5 End: 1448779400741
+2 End: 1448779400743
+0 End: 1448779400774
+1 End: 1448779400807
+6 End: 1448779400815
+3 End: 1448779400827
+4 End: 1448779400833
+7 End: 1448779400839
+
+
+ubuntu@ip-172-31-0-40:~$ java DHashTablePutClientTest 16 1000
+0 Begin: 1448779481747
+1 Begin: 1448779481752
+2 Begin: 1448779481763
+3 Begin: 1448779481764
+4 Begin: 1448779481765
+5 Begin: 1448779481765
+6 Begin: 1448779481766
+7 Begin: 1448779481767
+8 Begin: 1448779481767
+9 Begin: 1448779481793
+10 Begin: 1448779481839
+11 Begin: 1448779481860
+13 Begin: 1448779481922
+14 Begin: 1448779482006
+12 Begin: 1448779482045
+15 Begin: 1448779482087
+0 End: 1448779485671
+3 End: 1448779485688
+4 End: 1448779485759
+2 End: 1448779485809
+9 End: 1448779485823
+13 End: 1448779485824
+12 End: 1448779485837
+1 End: 1448779485840
+7 End: 1448779485872
+15 End: 1448779485884
+11 End: 1448779485885
+14 End: 1448779485901
+6 End: 1448779485916
+10 End: 1448779485985
+5 End: 1448779486006
+8 End: 1448779486007
+
+
+
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableGetClientTest 1 1000
+finished put
+0 Begin: 1448780032091
+0 End - begin : 535
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableGetClientTest 2 1000
+finished put
+0 Begin: 1448780055980
+1 Begin: 1448780055986
+0 End - begin : 559
+1 End - begin : 563
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableGetClientTest 4 1000
+finished put
+0 Begin: 1448780071320
+1 Begin: 1448780071326
+2 Begin: 1448780071329
+3 Begin: 1448780071340
+0 End - begin : 1005
+3 End - begin : 996
+2 End - begin : 1021
+1 End - begin : 1067
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableGetClientTest 8 1000
+finished put
+0 Begin: 1448780097520
+1 Begin: 1448780097527
+2 Begin: 1448780097530
+3 Begin: 1448780097543
+4 Begin: 1448780097546
+5 Begin: 1448780097548
+6 Begin: 1448780097577
+7 Begin: 1448780097597
+5 End - begin : 1833
+3 End - begin : 1901
+4 End - begin : 1918
+6 End - begin : 1901
+1 End - begin : 1973
+0 End - begin : 1981
+7 End - begin : 1917
+2 End - begin : 2000
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableGetClientTest 16 1000
+finished put
+0 Begin: 1448780128370
+1 Begin: 1448780128376
+2 Begin: 1448780128380
+3 Begin: 1448780128384
+4 Begin: 1448780128401
+5 Begin: 1448780128402
+6 Begin: 1448780128403
+7 Begin: 1448780128404
+8 Begin: 1448780128419
+9 Begin: 1448780128456
+10 Begin: 1448780128487
+12 Begin: 1448780128506
+11 Begin: 1448780128488
+13 Begin: 1448780128610
+14 Begin: 1448780128645
+15 Begin: 1448780128645
+0 End - begin : 3265
+9 End - begin : 3310
+5 End - begin : 3423
+11 End - begin : 3355
+12 End - begin : 3415
+7 End - begin : 3541
+2 End - begin : 3575
+4 End - begin : 3562
+1 End - begin : 3588
+13 End - begin : 3391
+8 End - begin : 3592
+6 End - begin : 3608
+10 End - begin : 3542
+15 End - begin : 3417
+3 End - begin : 3726
+14 End - begin : 3519
+
+
+
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableDelClientTest 1 1000
+finished put
+0 Begin: 1448780198358
+0 End: 615
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableDelClientTest 2 1000
+finished put
+0 Begin: 1448780222266
+1 Begin: 1448780222272
+1 End: 528
+0 End: 538
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableDelClientTest 4 1000
+finished put
+0 Begin: 1448780358104
+1 Begin: 1448780358111
+2 Begin: 1448780358114
+3 Begin: 1448780358130
+0 End: 1058
+1 End: 1062
+3 End: 1077
+2 End: 1094
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableDelClientTest 8 1000
+finished put
+0 Begin: 1448780379723
+1 Begin: 1448780379729
+2 Begin: 1448780379732
+3 Begin: 1448780379744
+4 Begin: 1448780379746
+5 Begin: 1448780379776
+6 Begin: 1448780379832
+7 Begin: 1448780379877
+5 End: 1620
+0 End: 1703
+1 End: 1767
+4 End: 1753
+2 End: 1781
+7 End: 1644
+6 End: 1695
+3 End: 1838
+
+ubuntu@ip-172-31-8-204:~$ java DHashTableDelClientTest 16 1000
+finished put
+0 Begin: 1448780395773
+1 Begin: 1448780395779
+2 Begin: 1448780395783
+3 Begin: 1448780395796
+4 Begin: 1448780395797
+5 Begin: 1448780395798
+6 Begin: 1448780395812
+7 Begin: 1448780395814
+8 Begin: 1448780395827
+9 Begin: 1448780395829
+10 Begin: 1448780395842
+11 Begin: 1448780395843
+12 Begin: 1448780395844
+13 Begin: 1448780395845
+14 Begin: 1448780395846
+15 Begin: 1448780395846
+9 End: 3077
+0 End: 3177
+2 End: 3198
+3 End: 3218
+1 End: 3240
+5 End: 3247
+10 End: 3278
+14 End: 3277
+7 End: 3399
+11 End: 3385
+15 End: 3386
+6 End: 3454
+13 End: 3440
+12 End: 3463
+4 End: 3530
+8 End: 3566
+
+
+

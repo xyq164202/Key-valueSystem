@@ -1,0 +1,72 @@
+scp -i /Users/xqy/Desktop/PA4.pem /Users/xqy/Desktop/mongodb-linux-x86_64-amazon-3.0.7.tgz ubuntu@ec2-52-34-100-25.us-west-2.compute.amazonaws.com:~
+
+mv  mongodb-linux-x86_64-3.0.7/ /usr/local/mongodb  
+mv  mongodb-linux-x86_64-amazon-3.0.7/ /usr/local/mongodb  
+export PATH=/usr/local/mongodb/bin:$PATH
+brew services start mongodb
+
+
+命令：
+
+
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@52.23.176.246
+
+
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@52.91.228.56
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@54.86.121.72
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@54.84.103.190
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@54.84.160.67
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@54.84.40.27
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@54.86.174.232
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@54.85.72.52
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem ubuntu@52.91.172.123
+
+
+
+ssh -i /Users/xiangao/Desktop/final_project/project550.pem  ubuntu@ec2-54-88-75-236.compute-1.amazonaws.com
+
+
+scp -i /Users/xiangao/Desktop/final_project/project550.pem  /Users/xiangao/Desktop/src.zip ubuntu@52.23.176.246:~
+
+
+pssh  -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -i  -h /Users/xiangao/Desktop/final_project/8p.txt  'echo hi'
+
+
+pssh  -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -i  -h /Users/xiangao/Desktop/final_project/8p.txt  '/usr/java/jdk1.7.0_79/bin/javac Main.java'
+
+pssh  -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -i  -h /Users/xiangao/Desktop/final_project/8p.txt  '/usr/java/jdk1.7.0_79/bin/java Main'
+
+
+
+pssh  -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -i  -h /Users/xiangao/Desktop/final_project/8p.txt  '/usr/java/jdk1.7.0_79/bin/javac Evaluation.java'
+
+
+pssh  -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -i  -h /Users/xiangao/Desktop/final_project/8p.txt  '/usr/java/jdk1.7.0_79/bin/java Evaluation'
+
+
+
+
+pscp -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -h /Users/xiangao/Desktop/final_project/8p.txt /Users/xiangao/Desktop/final_project/Evaluation.java /home/ubuntu/
+
+pscp -x " -i /Users/xiangao/Desktop/final_project/project550.pem" -h /Users/xiangao/Desktop/final_project/8p.txt /Users/xiangao/Desktop/final_project/TimerTest.java /home/ubuntu/
+
+
+
+pnuke -x " -i /Users/xiangao/Desktop/final_project/project550.pem"  -h /Users/xiangao/Desktop/final_project/8p.txt Main
+
+
+<<<<<<< Local Changes
+=======
+
+>>>>>>> External Changes
+
+JAVA_HOME=/usr/java/jdk1.7.0_79/
+export  JAVA_HOME
+PATH=$JAVA_HOME/bin:$PATH
+export PATH
+
+
+Access Key ID:
+AKIAJ46HULDYTQIYRCSA
+Secret Access Key:
+Au1Q3ltpUdQPrjAEZN87aJZ24S1LQ6GPa+hK0iVZ
